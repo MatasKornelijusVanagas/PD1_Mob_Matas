@@ -19,20 +19,20 @@
 
     <Button
         android:id="@+id/btnChangeText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change Text"
+        android:layout_width="161dp"
+        android:layout_height="63dp"
         android:onClick="onBtnChangeText"
+        android:text="Change Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvChangeText" />
 
     <Button
         android:id="@+id/btnChangeColor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Change Color"
+        android:layout_width="165dp"
+        android:layout_height="64dp"
         android:onClick="onBtnChangeColor"
+        android:text="Change Color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnChangeText" />
