@@ -3,7 +3,6 @@ package com.example.pd1_mob_matas;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.graphics.Color;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,12 +32,6 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnChangeText(View view) {
 
         tvChangeText.setText("New Text is Here!");
-
-    }
-
-    public void onBtnChangeColor(View view) {
-
-        tvChangeText.setTextColor(Color.GREEN);
 
     }
 }
